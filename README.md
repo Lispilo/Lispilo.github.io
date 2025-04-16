@@ -1,0 +1,10 @@
+# mappar/filer
+* [HTML](https://github.com/Lispilo/Lispilo.github.io/tree/site/html)
+  * [CONTACT.HTML](https://github.com/Lispilo/Lispilo.github.io/blob/site/html/contact.html)
+* [CSS](https://github.com/Lispilo/Lispilo.github.io/tree/site/css)
+  * [INDEX.CSS](https://github.com/Lispilo/Lispilo.github.io/blob/site/css/index.css)
+* [JS](https://github.com/Lispilo/Lispilo.github.io/tree/site/js)
+  * [INDEX.JS](https://github.com/Lispilo/Lispilo.github.io/blob/site/js/index.js)
+* [IMAGES](https://github.com/Lispilo/Lispilo.github.io/tree/site/images)
+  * [FAVICON](https://github.com/Lispilo/Lispilo.github.io/tree/site/images/favicon)
+* [INDEX.HTML](https://github.com/Lispilo/Lispilo.github.io/blob/site/index.html)
