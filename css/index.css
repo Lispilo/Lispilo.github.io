@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  hight: 100%;
+}
+
+div {
+  hight: 100px;
+  width: 100%;
+}
