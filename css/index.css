@@ -8,7 +8,8 @@ body {
   hight: 100%;
 }
 
-div {
+nav {
   hight: 100px;
   width: 100%;
+  background-color: red;
 }
