@@ -1,4 +1,4 @@
-import { animate } from 'animejs';
+import { animate } from 'https://cdn.jsdelivr.net/npm/animejs@4.0.2/+esm';
 
 animate('span', {
     y: [
