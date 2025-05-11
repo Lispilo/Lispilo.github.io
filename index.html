@@ -5,24 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/boylerplate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <title>Lispilo - Start</title>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="https://lispilo.github.io">Start</a></li>
-            <li><a href="https://lispilo.github.io/html/contact">Kontakt</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h1>Hej och välkommen till min hemsida!</h1>
-    </section>
-    <footer>
-        
-    </footer>
-    <script src="js/index.js"></script>
+    <!-- NAVBAR - START -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="https://lispilo.github.io/">Lispilo</a>
+            </div>
+            <ul class="links">
+                <li class="link"><a href="https://lispilo.github.io/">Start</a></li>
+                <li class="link"><a href="https://lispilo.github.io/html/cv">CV</a></li>
+                <li class="link"><a href="https://lispilo.github.io/html/contact.html">Contact</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="dropdown_menu">
+        <li class="link"><a href="https://lispilo.github.io/">Start</a></li>
+        <li class="link"><a href="https://lispilo.github.io/html/cv">CV</a></li>
+        <li class="link"><a href="https://lispilo.github.io/html/contact.html">Contact</a></li>
+    </div>
+    <!-- NAVBAR - SLUT -->
+
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,107 @@
+/* Boylerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+/* NAVBAR - Start */
+header nav.navbar ul.links li.link {
+    list-style: none;
+}
+
+header nav.navbar ul.links li.link a, header nav.navbar div.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+header nav.navbar ul.links li.link a:hover, header nav.navbar div a:hover {
+    color: orange;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+header nav.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav.navbar div.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav.navbar ul.links {
+    display: flex;
+    gap: 2rem;
+}
+
+header nav.navbar div.toggle_btn {
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* DROPDOWN MENU */
+div.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div.dropdown_menu.open {
+    height: 240px;
+}
+
+div.dropdown_menu li.link {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* RSPONIVE DESIGN */
+@media(max-width: 992px) {
+    header nav.navbar ul.links {
+        display: none;
+    }
+
+    header nav.navbar div.toggle_btn {
+        display: block;
+    }
+
+    div.dropdown_menu {
+        display: block;
+    }
+}
+
+@media(max-width: 576px) {
+    div.dropdown_menu {
+        left: 2rem;
+        width: unset;
+    }
+}
+/* NAVBAR - SLUT */
