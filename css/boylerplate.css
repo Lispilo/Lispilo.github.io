@@ -1,14 +1,19 @@
 /* Boylerplate */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
+    background-color: #00AEEE;
+    width: 100%;
 }
 
 /* NAVBAR - Start */
-
+nav {
+    background-color: #008EC2;
+    height: 80px;
+    width: 100%;
+}
 /* NAVBAR - SLUT */
