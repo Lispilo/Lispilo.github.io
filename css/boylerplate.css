@@ -1,20 +1,48 @@
 /* Boylerplate */
+:root {
+    --color-navbar: #008EC2;
+    --color-background: #00AEEE;
+    --color-text: #ffffff;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--color-text);
+}
+
 body {
-    background-color: #00AEEE;
+    background-color: var(--color-background);
     width: 100%;
 }
 
-/* NAVBAR - Start */
+/* NAVBAR - START */
 nav {
-    background-color: #008EC2;
+    background-color: var(--color-navbar);
     height: 80px;
     width: 100%;
-    filter: drop-shadow(0 5px 2px #008EC2);
+    filter: drop-shadow(0 5px 2px var(--color-navbar));
 }
+
+/* LOGO - START */
+nav div.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+nav div.logo img {
+    width: 44px;
+    height: 44px;
+    border-radius: 88px;
+}
+
+nav div.logo h1 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+/* LOGO - SLUT */
 /* NAVBAR - SLUT */
