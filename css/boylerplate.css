@@ -45,4 +45,10 @@ nav div.logo h1 {
     font-size: 24px;
 }
 /* LOGO - SLUT */
+/* LINKS - START */
+nav ul li a {
+    color: var(--color-text);
+    font-weight: 200;
+}
+/* LINKS - SLUT */
 /* NAVBAR - SLUT */
