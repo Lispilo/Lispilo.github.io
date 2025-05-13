@@ -26,7 +26,6 @@ nav {
     height: 80px;
     width: 100%;
     filter: drop-shadow(0 5px 2px var(--color-navbar));
-    top: 50%;
 }
 
 /* LOGO - START */
